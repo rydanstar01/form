@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Online Form</title>
+  </head>
+
+  <body>
+    <h2>Online Form</h2>
+    <form id="form">
+      <div>
+        Username:
+        <br />
+        <input type="text" id="username" required />
+      </div>
+      <br />
+      <div>
+        Password:
+        <br />
+        <input type="password" id="password" required />
+      </div>
+      <br />
+      <div>
+        Email:
+        <br />
+        <input type="email" id="email" required />
+      </div>
+      <br />
+      <div>
+        Birth date:
+        <br />
+        <input type="date" id="birthdate" required />
+      </div>
+      <br />
+      <div>
+        City:
+        <br />
+        <select id="city">
+          <option>Mumbai</option>
+          <option>New Delhi</option>
+          <option>Bangalore</option>
+          <option>Hyderabad</option>
+        </select>
+      </div>
+      <br />
+      <div>
+        Programming Languages Known:
+        <br />
+        <input type="checkbox" id="c" value="C" />C
+        <input type="checkbox" id="cpp" value="C++" />C++
+        <input type="checkbox" id="java" value="Java" />Java
+        <input type="checkbox" id="javascript" value="JavaScript" />JavaScript
+        <input type="checkbox" id="python" value="Python" />Python
+      </div>
+      <br />
+      <button type="submit">Submit</button>
+    </form>
+    <script src="formvalidation.js"></script>
+  </body>
+</html>
